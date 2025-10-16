@@ -1,0 +1,36 @@
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PHP
+vendor/
+composer.phar
+
+# Environment files
+.env
+.env.local
+
+# Backup files
+*.bak
+*.backup
+*.sql.backup
+
+# Cache
+cache/
+*.cache
